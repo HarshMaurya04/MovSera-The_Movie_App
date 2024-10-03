@@ -1,0 +1,122 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.lightLogo {
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: rgb(188, 134, 238);
+  color: rgb(50, 12, 86);
+  border-radius: 1rem;
+}
+
+.darkLogo {
+  font-size: 2rem;
+  font-weight: bolder;
+  background-color: #322659;
+  color: #ebdaff;
+  border-radius: 1rem;
+}
+
+.darkLight {
+  height: 44px !important;
+  width: 44px !important;
+  border-radius: 15px !important;
+}
+
+.lightLinks {
+  font-weight: 600;
+  background-color: rgb(188, 134, 238);
+  border-radius: 1rem;
+}
+
+.darkLinks {
+  font-weight: 600;
+  background-color: #322659;
+  border-radius: 1rem;
+}
+
+.lightPages {
+  padding: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  color: rgb(50, 12, 86);
+  text-decoration: none;
+}
+
+.lightPages:hover {
+  background-color: #6523a8db;
+  color: #faf5ff;
+  border-radius: 0.8rem;
+  padding: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.lightActive {
+  background-color: #6523a8db;
+  color: #faf5ff;
+  border-radius: 0.8rem;
+  padding: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.darkPages {
+  padding: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  color: #faf5ff;
+  text-decoration: none;
+}
+
+.darkPages:hover {
+  background-color: #7954cf;
+  color: #0e0b1a;
+  border-radius: 0.8rem;
+  padding: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.darkActive {
+  background-color: #7954cf;
+  color: #0e0b1a;
+  border-radius: 0.8rem;
+  padding: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+
+.lightMenuList {
+  color: #322659 !important;
+  background-color: #d6bcfa !important;
+  border: 2px solid #a27bda !important;
+  border-radius: 15px !important;
+}
+
+.lightMenuItem {
+  background-color: #d6bcfa !important;
+}
+
+.lightMenuItem:hover {
+  background-color: #be94f9 !important;
+}
+
+.darkMenuList {
+  color: #faf5ff !important;
+  background-color: #6240b1 !important;
+  border: 2px solid #2b2051 !important;
+  border-radius: 15px !important;
+}
+
+.darkMenuItem {
+  background-color: #6240b1 !important;
+}
+
+.darkMenuItem:hover {
+  background-color: #473282 !important;
+}

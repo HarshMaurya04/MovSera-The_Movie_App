@@ -1,0 +1,32 @@
+.lightBtn {
+  color: #faf5ff !important;
+  background-color: #836fc4 !important; 
+  border-radius: 10px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.lightBtn:hover {
+  background-color: #61519c !important; 
+}
+
+.darkBtn {
+  color: #1b0a37 !important;
+  background-color: #B794F4 !important; 
+  border-radius: 10px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.darkBtn:hover {
+  background-color: #E9D8FD !important; 
+}
+
+.lightPageCount {
+  font-size: large;
+  font-weight: 600;
+  color: #322659;
+}
+
+.darkPageCount {
+  font-size: large; 
+  color: #FAF5FF;
+}

@@ -1,0 +1,39 @@
+.lightDropdown {
+  background-color: #b794f49a !important;
+  color: #1b0a37 !important;
+  border: 2px solid #7c54c2 !important;
+  border-radius: 15px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.lightDropdown:hover {
+  background-color: #b794f4b7 !important;
+  border: 2px solid #1b0a37 !important;
+  cursor: pointer;
+}
+
+.lightDropdown option {
+  background-color: #e8daff9a !important;
+}
+
+.darkDropdown {
+  background-color: #553c9a !important;
+  color: #faf5ff !important;
+  border: 2px solid #b794f4 !important;
+  border-radius: 15px !important;
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.darkDropdown:hover {
+  background-color: #6b46c1 !important;
+  border: 2px solid #d6bcfa !important;
+  cursor: pointer;
+}
+
+.darkDropdown option {
+  background-color: #553c9a !important;
+}

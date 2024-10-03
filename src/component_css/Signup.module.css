@@ -1,0 +1,60 @@
+.lightInput {
+  width: 100%;
+  background-color: #faf5ff;
+  outline: none;
+  border-radius: 12px;
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.lightInput:hover,
+.lightInput:focus {
+  border: 2px solid #6b46c1;
+}
+
+.darkInput {
+  width: 100%;
+  background-color: #44337A;
+  outline: none;
+  border-radius: 12px;
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.darkInput::placeholder {
+  color: #e9d8fde4;
+}
+
+.darkInput:hover,
+.darkInput:focus {
+  border: 2px solid #E9D8FD;
+  background-color: #322659;
+}
+
+.lightSubmitBtn {
+  width: 100%;
+  background-color: #805AD5 !important;
+  color: #FAF5FF !important;
+  border-radius: 12px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.lightSubmitBtn:hover {
+  background-color: #6B46C1 !important;
+}
+
+.darkSubmitBtn {
+  width: 100%;
+  background-color: #D6BCFA !important;
+  color: #322659 !important; 
+  border-radius: 12px !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.darkSubmitBtn:hover {
+  background-color: #E9D8FD !important;
+}

@@ -1,0 +1,33 @@
+.lightFoot {
+  background-color: #6b46c1;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+}
+
+.darkFoot {
+  background-color: #130f21;
+  padding: 1.2rem;
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+}
+
+.lightText {
+  color: #faf5ff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.darkText {
+  color: #e9d8fd;
+  font-weight: bold;
+  font-size: 1rem;
+}

@@ -1,0 +1,48 @@
+.lightInput {
+  width: 96%;
+  background-color: #b794f49a;
+  color: #1b0a37;
+  font-weight: 600;
+  outline: none;
+  border-radius: 15px;
+  padding: 0.5rem;
+  padding-left: 1.2rem;
+  border: 2px solid #9966cc;
+  transition: all 0.2s ease-in-out;
+}
+
+.lightInput::placeholder {
+  color: #633aa4bf;
+}
+
+.lightInput:hover,
+.lightInput:focus {
+  background-color: #c7adf6;
+  border: 2px solid #442772;
+
+  &.input::placeholder {
+    color: #633aa4d4;
+  }
+}
+
+.darkInput {
+  width: 96%;
+  background-color: #805ad5;
+  color: #1b0a37;
+  font-weight: 600;
+  outline: none;
+  border-radius: 15px;
+  padding: 0.5rem;
+  padding-left: 1.2rem;
+  border: 2px solid #d6bcfa;
+  transition: all 0.2s ease-in-out;
+}
+
+.darkInput::placeholder {
+  color: #391b68;
+}
+
+.darkInput:hover,
+.darkInput:focus {
+  border: 2px solid #faf5ff;
+}
