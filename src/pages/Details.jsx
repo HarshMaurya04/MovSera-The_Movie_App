@@ -261,7 +261,7 @@ const Details = () => {
                         {showsSeason(details.number_of_seasons)}
                       </Text>
 
-                      {"---->"}
+                      {"--->"}
 
                       <Text
                         fontSize="1.1rem"
