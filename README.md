@@ -1,5 +1,5 @@
 
-# # MovSera-The_Movie_App
+# # MovSera - The Movies/Series Search App
 
 ## Overview
 
